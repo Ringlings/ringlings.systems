@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import Emoji from '../lib/Emoji.svelte';
 
 	let memberCount = '...';
 
@@ -23,12 +24,15 @@
 <div class="infoblock">
 	<p>
 		Haii, welcome to our silly little page. Might as well introduce ourselves, it's the least we can
-		do :catresort:
+		do <Emoji
+			url="https://cdn.discordapp.com/emojis/917905921311666176.webp?size=96&quality=lossless"
+			name="catresort"
+		/>
 	</p>
 
 	<p>
 		We're a system of <a href="https://fronters.ringlings.systems/all">{memberCount}</a> known collectively
-		as Gem. We do random stuff sometimes. All times, actually. What kinda stuff? Welllllll...
+		as ???. We do random stuff sometimes. All times, actually. What kinda stuff? Welllllll...
 	</p>
 </div>
 
@@ -39,8 +43,141 @@
 		works, that always sucks.
 	</p>
 	<p>
-		You can find our portfolio of random stuff at our <a href="https://github.com/Ringlings">GitHub</a>.
+		You can find our portfolio of random stuff at our <a href="https://github.com/Ringlings">
+			GitHub</a
+		>. Don't have too high expectations though <Emoji
+			url="https://cdn.discordapp.com/emojis/1056358411924676708.webp?size=96&quality=lossless"
+			name="catstare"
+		/>
 	</p>
+</div>
+
+<div class="infoblock">
+	<Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/><Emoji
+		url="https://cdn.discordapp.com/emojis/639362782587912202.gif?size=96&quality=lossless"
+	/>
 </div>
 
 <style>
